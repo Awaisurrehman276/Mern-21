@@ -45,4 +45,13 @@ console.log(Age1);
 console.log(Age1);
 
 //
+//Case of Var( reassigned, redefined)
+var test= "working";
+console.log(test);
+{
+    var test= "okay";
+    console.log(test);
+}
 
+var test="still working";
+console.log(test);
