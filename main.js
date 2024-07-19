@@ -55,3 +55,13 @@ console.log(test);
 
 var test="still working";
 console.log(test);
+// To check type of value 
+let anyvalue= "idk";
+console.log(typeof anyvalue)
+// to conver string into number
+let converstion= Number(anyvalue)
+console.log(converstion)
+// boolean change
+let oknumber= -15;
+newconversation = Boolean(oknumber);
+console.log(newconversation)
