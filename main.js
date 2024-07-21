@@ -65,3 +65,47 @@ console.log(converstion)
 let oknumber= -15;
 newconversation = Boolean(oknumber);
 console.log(newconversation)
+// String Interpolation
+
+let name= "Awais";
+let degree="CS";
+console.log(`My name is ${name} and I've done bacholar in ${degree}`)
+// intializing string through object method 
+const newstring= new String('Okay THIS IS String')
+console.log(newstring.length)
+// url replacce
+
+const url="https://yourvinchecks.com%40okay"
+
+console.log(url.replace(`%40`, `-`))
+
+//Arrays
+const myarr= [1,2,4,5,7,3]
+
+const newarray= new Array("Awais", "Ali", "Humza")
+//console.log(newarray[0]);
+console.log(newarray.push("try"))
+console.log(newarray)
+
+// to add an element in the start in array
+console.log (newarray.unshift(4))
+console.log(newarray) 
+
+// shift to use to remove from the start.
+
+const user= {
+    name: "Awais",
+    age: 24,
+    email: "aur276@gmail.com",
+    hisarr: [2,7,6],
+
+}
+user.greeting=function(){
+    console.log("Hey there, I'm testing")
+}
+
+// to call a value in object.
+user.greetingtwo=function(){
+    console.log(`Hey there, I'm testing ${this.name}` )
+}
+console.log(user.greetingtwo())
